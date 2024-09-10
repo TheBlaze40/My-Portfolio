@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+              content="width=device-width, initial-scale=1.0">
+        <title>Internship Portfolio</title>
+    
+        <link rel = "stylesheet" href = "CSS/style.css">
+        <script defer src = "JS/app.js"></script>
+        
+    </head>
+    <body>
+        <!--Sidenav(start)-->
+         <div id="sidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()";>&times;</a>
+                            <h2 style="text-align:center; color:white;">Menu</h2>
+                            <br>
+                            <a href="#home">Home</a>
+                            <a href="#about1" >About</a>
+                            <a href="#projects" >Project</a>
+                            <a href="#ach" >Achievements</a>
+                            <a href="HTML/contact_index.html">Contact</a>
+        </div>
+        <!--Sidenav(end)-->
+
+
+        <!--nav(start)-->
+        <div class="navbar">
+            <div id="menu">
+                          <ul style="list-style-type: none;">
+                          <li><span style="color:white;font-size:30px;cursor:pointer;margin-top: 50%;margin-left: 50%;" onclick="openNav()">&#9776;</span></li>
+                          </ul>
+            </div>
+            <ul style="font-size:125%;float:left;margin-left:100px;">
+                <li>
+                    <a href="#home" style="float:left; font-size: 28px; font-weight: bold;
+                        background: linear-gradient(to right, #16BFFD, #CB3066 ); 
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        color: transparent;"> <!-- Added color: transparent for fallback -->
+                        My Portfolio
+                    </a>
+                </li>
+            </ul>
+                          <ul>
+                          <li><a href="#home" style = "color:tan;">🏠 Home</a></li>
+                          <li><a href="#about1" style = "color:white;">📝 About</a></li>
+                          <li><a href="#projects" style = "color:grey;" >🛠️ Projects</a></li>
+                          <li><a href="#ach" style = "color:#fdcb6e;">🏆 Achievements</a></li>
+                          <li><a href="HTML/contact_index.html" style = "color:red;">☎️ Contact</a></li>
+                          </ul>
+        </div> 
+        <!--nav(end)-->
+
+
+        <!--Home(start)-->
+
+        <section class="hidden">
+        <div id="home" style="align-content: center;margin-bottom: 100px;margin-top: 300px;">
+
+        <div style="float:left; font: size 2em; font-weight: bold;
+        background: linear-gradient(to right,#c31432, #240b36 ); 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;">
+                <span style="font-size: 2em; font-weight: bold;color:black;float:left;">Good&nbsp;</span>
+                <span 
+                      class="txt-rotate type-js"
+                      data-period="4000"
+                      data-rotate='["morning.", "afternoon.", "evening.", "night." ]'
+                      style="color:black;">
+                </span>
+        </div>
+        </div>
+        </section>
+
+        <!--Home(end)-->
+
+        <!--About(start)-->
+        <section class="hidden">
+            <div id="about1" style="display: flex; align-items: center; justify-content: center; margin: 20px; height: 400px;">
+                <div id="img0" class="round-shape-wrapper">
+                    <img src="Images/avatat2.jpg" class="image1" style="border-radius: 50%; margin-left: 20px;" width="200px" height="200px">
+                </div>
+                <div id="about_text1" style="flex: 1; padding-left: 100px; padding-right: 100px;">
+                    <p style="color: black; font-size: 20px; text-align: center;">
+                        <b>Hello! I'm Prerak, a thirteen year 13-year-old with a deep passion for technology and programming`. I've always been fascinated by how things work behind the scenes in the digital world, which has driven me to specialize in several programming languages and technologies. My skill set includes HTML and CSS for web development, Python for versatile scripting and automation, and C++ for more advanced programming challenges.
+                        I've dedicated countless hours to honing my skills through personal projects, free online courses, and hands-on experimentation. 
+                        I'm eager to take the next step in my journey by finding an internship where I can apply my skills in a real-world setting. </b>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--About(end)-->
+
+
+        <div id="contactButton" style="position: fixed; bottom: 20px; right: 20px;display: inline-block;">
+            <button class="button">
+                <a href="HTML/contact_index.html" style="text-decoration: none;background-color:#3B62C6; color: black;"><b>✉️ Contact Us</b></a>
+            </button>
+        </div>
+
+
+      <!--Projects(start)-->
+    
+      <div id="projects" style="margin-top:200px;">
+        <h1 style="color:black;text-align: center;font-size:40px;"><b>Projects</b></h1>
+        <hr style="width:225px;height:3px;background-color: black;margin-bottom: 100px;">
+        <br>
+        
+        <!-- Project 1 -->
+        <section class="hidden">
+            <div id="prj1" class="prj" style="color:white; padding: 20px; display: flex; align-items: center;">
+                <img src="Images/prjimg1.png" height="250px" width="400" style="border-radius: 20px;margin-right: 20px;">
+                <div>
+                    <h2 style="font-size: 24px; margin-top: 20px;text-align: left;">Neopixel LED Strip Controlled by Computer Input</h2>
+                    <p style="font-size: 16px;text-align: left;">
+                        This project involves designing and implementing a system where a Neopixel LED strip is controlled via computer input. The setup includes a Neopixel LED strip connected to a microcontroller, which interfaces with a computer through a USB connection. Software on the computer sends commands to the microcontroller, allowing dynamic control over the LED strip's color, brightness, and lighting patterns. The project aims to demonstrate real-time customization of LED displays using computer-generated input, making it ideal for applications in interactive displays, decorative lighting, and visual effects.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Project 2 -->
+        <section class="hidden">
+            <div id="prj2" class="prj" style="color: white; padding: 20px; display: flex; align-items: center;">
+                <div style="flex: 1; text-align: left;">
+                    <h2 style="font-size: 24px; margin-top: 20px;">LCD Programmed with Arduino</h2>
+                    <p style="font-size: 16px;text-align: left;">
+                        This project focuses on using an Arduino microcontroller to control an LCD display. The setup involves connecting a Liquid Crystal Display (LCD) to an Arduino board, enabling the display of text, numbers, and basic graphics. The Arduino is programmed to send data to the LCD, allowing for real-time updates and interactive user interfaces. Applications include creating custom displays for information, status indicators, and simple visual outputs in various electronic projects. The project highlights the integration of Arduino programming with LCD technology to deliver informative and interactive displays.
+                    </p>
+                </div>
+                <img src="Images/prjimg2.png" height="250px" width="400" style="border-radius: 20px; margin-left: 20px; align-self: flex-start;">
+            </div>
+        </section>
+        
+        
+        <!-- Project 3 -->
+        <section class="hidden">
+            <div id="prj3" class="prj" style="color:white; padding: 20px; display: flex; align-items: center;">
+                <img src="Images/prjimg3.PNG" height="300px" width="700" style="border-radius: 20px; margin-right: 20px;">
+                <div>
+                    <h2 style="font-size: 24px; margin-top: 20px;"> Portfolio for Internship</h2>
+                    <p style="font-size: 16px;">
+                        
+
+                               This project involves the creation of a comprehensive and dynamic portfolio tailored specifically for internship applications. The portfolio will serve as a compelling showcase of skills, experiences, and accomplishments, designed to effectively highlight the candidate's suitability for various internship opportunities.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+    <!--Projects(end)--> 
+
+        <!--Achievement(start)-->
+        <section class="hidden">
+        <div id="ach" style="margin-top: 200px;">
+                          <h1 style="text-align: center;font-size:40px;"><b>Achievements</b></h1>
+                          <hr style="width:225px;height:3px;background-color: black;margin-bottom: 50px;">
+        <div class="container">
+
+            <div class="box">
+
+                <div class="emoji-container">
+                    <p class="emoji">🏆</p>
+                </div>
+                <div class="content">
+                    <h1 class="title">Python Basics</h1>
+                    <p class="description" style="margin-bottom:41.5px;">I have a foundational understanding of Python, including basic syntax, data types, control structures, and functions. This knowledge enables me to write simple scripts, automate tasks, and solve introductory programming problems using Python.</p>
+                </div>
+
+            </div>
+            
+                <div class="box">
+
+                    <div class="emoji-container">
+                        <p class="emoji">🏆</p>
+                    </div>
+                    <div class="content">
+                        <h1 class="title">C++ Developer</h1>
+                        <p class="description">As a C++ developer, I specialize in using the C++ programming language to build efficient and high-performance applications. My expertise includes object-oriented programming, memory management, and developing software that requires complex computations and system-level operations.</p>
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="emoji-container">
+                        <p class="emoji">🏆</p>
+                    </div>
+                    <div class="content">
+                        <h1 class="title">HTML/CSS Designer</h1>
+                        <p class="description"> I am skilled in designing and styling web pages with HTML and CSS. I create the structure and visual design of websites, ensuring they are both attractive and functional. My work involves crafting responsive layouts and ensuring cross-browser compatibility to enhance the user experience.</p>
+                    </div>
+
+                </div>
+        </div>
+        </div>
+        </section>
+        <!--Achievement(end)-->
+
+        <!--Footer1(start)-->
+        <div id="footer1" style="width:100%; background-color:#3B62C6; padding: 15px;margin-top:100px;">
+        <div style="width: 90%; margin: auto; text-align: center;">
+        <div style="display: inline-block; margin: 0 10px;">
+                                                            <a href="https://in.linkedin.com/" style="text-decoration: none; color: white;" target="_blank"><b>LinkedIn</b></a>
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+            |  
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+                                                            <a href="https://github.com/" style="text-decoration: none; color: white;" target="_blank"><b>GitHub</b></a>
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+            |
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+                                                         <a href="https://x.com/home" style="text-decoration: none; color: white;"><b>X (formerly Twitter)</b></a>
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+            |
+        </div>
+        <div style="display: inline-block; margin: 0 10px;">
+                                                            <a href="#home" style="text-decoration: none; color: white;"><b>Website</b></a>
+        </div>
+        </div>
+        </div>
+        <!--Footer1(end)-->
+         
+        <!--Footer2(start)-->
+        <footer style="background-color: #333; color: white; padding: 20px; ">
+            <a href="#home" style="text-decoration: none; color:#3B62C6; font-size: 30px;float:right;margin-right:50px;">
+                <b>Click to go to top. ⬆️</b>
+            </a>
+            
+            <p style="font-family: Arial, sans-serif; font-size: 16px;text-align: left;">
+                Thank you for visiting our portfolio! 
+                <br>
+                Connect with us on LinkedIn, Email or GitHub.
+            </p>
+            <p style="font-family: Arial, sans-serif; font-size: 14px;text-align: left;">
+                © 2024 Prerak and Arjun. All rights reserved.
+            </p>
+        </footer>
+        <!--Footer2(end)-->
+
+
+</body>
+</html>

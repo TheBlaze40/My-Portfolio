@@ -1,0 +1,241 @@
+body{
+    background-image:url('../Images/Light_background.png');
+    background-repeat:repeat-y;
+    background-size:cover;
+    background-attachment: fixed;
+    color:black; 
+    text-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin:0px;
+    padding:0px;
+    opacity: 0.8;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#home{
+    color:#3B62C6;/* color combos:"#3B62C6, #5A3BC6, #3BA7C6"*/
+    display:flex;
+    justify-content: center;
+    font-size:150%;
+    margin-top: 100px;
+}
+
+#about{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #161616;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #111;
+}
+
+.navbar span {
+    position: absolute;
+    left: 20px; 
+    top: 10px; 
+    color: white;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.9s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#3B62C6;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color:white;
+}
+
+.sidenav .closebtn:hover{
+    color:red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color:white;
+}
+
+.closebtn:hover{
+    color: #c0392b;
+}
+
+@media screen and (max-height: 450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#menu{
+    position: absolute;
+}
+.button {
+    border-radius: 20px;
+    background-color:#3B62C6;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display:inline-block;
+    margin-left:600px;
+}
+
+.txt-rotate {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 75px;
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+}
+
+.prj {
+    background-color: #161616;
+    z-index: 1;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 45px;
+    border: solid black 5px;
+    border-radius: 20px;
+    transition: transform .2s
+}
+.prj:hover {
+    transform: scale(1.02);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Simplified column definition */
+    grid-gap: 75px; /* Changed to fixed pixel value */
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: start; /* Aligns items to the start of the grid */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    background-color: #161616;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Changed to flex-start for top alignment */
+    text-align: center;
+    width: 325px; /* Changed to 100% for responsive design */
+    height: 325px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: flex-start; /* Changed to flex-start for top alignment */
+    transition: transform .2s
+}
+.box:hover{
+    transform: scale(1.04);
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+#about_text1{
+    width:700px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.emoji {
+    font-size: 30px;
+}
+
+.content {
+    margin-bottom:50px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
